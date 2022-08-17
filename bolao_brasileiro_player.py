@@ -36,14 +36,14 @@ while count <= 10:
             home_score = int(input(matches[count]['home'] + ': '))
             break
         except ValueError:
-            print('Tu digitaste um número?')
+            print('Only numbers!')
 
     while True:
         try:
             away_score = int(input(matches[count]['away'] + ': '))
             break
         except ValueError:
-            print('Tu digitaste um número?')
+            print('Only numbers!')
 
     print('-'*20)
     confirm = str(input('Do you confirm [y]: yes / [n]: no\n' + matches[count]['home'] + ' ' + str(home_score) + ' X ' +
