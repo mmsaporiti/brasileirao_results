@@ -1,6 +1,6 @@
 from cx_Freeze import setup, Executable
 
-base = None    
+base = None
 
 executables = [Executable("bolao_brasileiro_player.py", base=base)]
 
